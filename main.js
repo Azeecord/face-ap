@@ -33,7 +33,7 @@ function gotPoses(results)
 
 function draw() {
   image(video, 0, 0, 300, 300);
-  image(mask,noseX-65, noseY-30, 200, 200);
+  image(mask,noseX, noseY, 200, 200);
 }
 
 function take_snapshot(){    
